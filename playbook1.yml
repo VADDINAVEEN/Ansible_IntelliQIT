@@ -1,6 +1,6 @@
 ---
 - name: Create user
-  hosts: appserver
+  hosts: all
   tasks:
     - name: User creation
       user:
